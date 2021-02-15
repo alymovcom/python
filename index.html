@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+</head>
+<body>
+    
+    <header>
+        <label class="logo"> Python scripts</label>
+        <a href="https://www.python.org" target="_blank" class="load">Download Python</a>
+    </header>
+
+
+    <ul class="all">
+        <li><div class="field">
+            <span class="text">Name (sites.py)</span>
+            <span class="text">Version (1)</span>
+            <span class="text">System (macOS)</span>
+            <a href="sites.py" class="load load-2" download="">Download Script</a>
+        </div></li>
+        <li><div class="field">
+            <span class="text">Name (sites2.py)</span>
+            <span class="text">Version (2)</span>
+            <span class="text">System (macOS)</span>
+            <a href="sites2.py" class="load load-2" download="">Download Script</a>
+        </div></li>
+    </ul>
+
+
+    <script>
+        $('.all').sortable()
+    </script>
+</body>
+</html>
